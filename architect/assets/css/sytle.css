@@ -1,0 +1,253 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* từ ngoài vào trong */
+/* từ trên xuống dưới */
+/* tổng quan đến chi tiết */
+/*  vị trí
+    kích thước (height, width)
+    màu sắc
+    kiểu dáng (kiểu chữ,hình tròn, vuông,....)*/
+#main{
+     
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    margin-left: 26px;
+    margin-right: 26px;
+}
+.column{
+    padding: 8px;
+    float: left;
+}
+.column-four{
+    width: 25%;
+}
+.column-full{
+    /* width: 100%; */
+}
+.clear{
+    clear: both;
+}
+#header{
+     height: 54.5px;
+     background-color: #fff;
+    font-size: 15px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+#header > a:hover{
+    
+}
+ 
+#nav b{
+    margin-right: 5px;   
+}
+#nav li{ 
+    display: inline-block;  
+}
+#nav li a{
+   color: #000;
+   text-decoration: none;
+   line-height: 54.5px;
+   letter-spacing: 4px;
+   padding: 0 16px;
+   
+}
+#nav li:hover{
+   background-color: #ccc;
+   cursor: pointer;
+}
+#slider{
+    position: relative;
+   margin-top: 54.5px;
+   padding-top: 50%;
+   background: url(./img/slider/architect.jpg)  top center / cover no-repeat ;
+    
+}
+#slider .text-content{
+    position: absolute;
+    text-align: center;
+    bottom: 280px;
+    width: 100%;
+    font-size: 36px;
+}
+#slider .text-content .logo,a{
+    display: inline-block;
+    color: #fff;
+    
+} 
+#slider .text-content a{
+    letter-spacing: 4px;
+}
+#slider .text-content .logo{
+    padding: 8px 16px;
+     font-size: 50px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#content{
+     /* min-height: 1000px; */
+      
+}
+#content .projects{
+    padding: 32px 16px;
+}
+#content .projects .content-projects{
+    padding: 26px 0;    
+     font-size: 24px;
+     border-bottom: 1px rgba(10, 243, 10, 0.2) solid;
+     font-family: "Segoe UI",Arial,sans-serif;
+     font-weight: 400; 
+     margin: 0 10px;
+}
+ 
+#content .list-house .member-house{
+    width: 100%;  
+}
+.column{
+    position: relative;
+}
+#content .list-house .name-house{
+    position: absolute;
+     background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+      top: 8px;
+      left: 8px;   
+}
+.list1{
+    margin-top: 8px;
+}
+.about-section .about{
+    padding: 32px 16px;
+}
+.about-section .about h2{
+     padding: 26px 0 26px 0;
+     border-bottom: 1px rgba(10, 243, 10, 0.2) solid;
+    font-size: 26px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+.about-section .about p{
+    margin: 15px 0;
+    line-height: 1.5;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+    
+}
+.about-section .list-architects .img-architect{
+    width: 100%;
+    /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+    /* có thể dùng fillter thôi cũng đc */
+    /* graycale(100%) là đồi filter thành màu xám 100% */
+  filter: grayscale(100%);
+}
+.about-section .list-architects{
+    margin-left: 25px;
+    margin-right: 25px;  
+
+}
+.about-section .list-architects .name-architect{
+    margin: 10px 0;
+    font-size: 24px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+.about-section .list-architects .position{
+    margin: 15px 0;
+    font-size: 19px;
+    opacity: 0.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-section .list-architects .introduce{
+    margin: 15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+.about-section .list-architects .btn-contact{
+     background-color: #f1f1f1;
+     padding: 15px 30px;
+     width: 100%;
+     font-size: 17px;
+     border: none;
+     cursor: pointer;
+      
+}
+.about-section .list-architects .btn-contact:hover{
+    background-color: #ccc;
+}
+
+.contact-section .contact-name{
+     font-size: 27px;
+     line-height: 1.4;
+     margin: 90px 30px 0;
+     padding-bottom: 16px;
+     font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    border-bottom: 1px rgba(10, 243, 10, 0.2) solid;
+}
+.contact-section .contact-request{
+     
+    font-size: 20px;
+    margin: 15px 30px;
+}
+.contact-section .form-control{
+    padding: 15px;
+    width: 100%;
+    margin: 15px 15px 15px 3px;
+    border: 1px #000 solid;
+    font-size: 20px;
+}
+.contact-section .btn-send{
+    padding: 16px 32px;
+    margin-top: 24px;
+    background-color: #000;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+     border: none;
+
+}
+.contact-section .btn-send:hover{
+    background-color: #ccc;
+    cursor: pointer;
+    color: #000;
+}
+  
+.map-section{
+     margin-top: 56px;
+    
+}
+.map-section img{
+    width: 100%;
+    padding: 5px 0;
+}
+#footer{
+    height: 85px;
+    background-color: #000;
+    padding: 16px 0;
+    color: #fff;
+    text-align: center;
+     
+}
+#footer .copy-right{
+    font-family: Verdana,sans-serif;
+    font-size: 20px;
+     margin: 15px 0;
+}
+#footer p a:hover{
+    color: green;
+}
